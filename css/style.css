@@ -1,0 +1,31 @@
+#wrapper {
+    display: grid;
+    height: 100vh;
+      grid-template-areas: 
+    "hd"
+    "mn"
+    "ft"
+    ;
+    grid-template-columns: 1fr;
+     grid-template-rows: 30% 60% 10% ;
+    
+}
+
+#header1 {
+    grid-area:hd;
+    height: 15%;
+}
+#sm {
+    grid-area:mn;
+    height: 60%;
+    background-color: blueviolet;
+    
+}
+section { 
+    height: 50%;
+background-color:black;
+ } 
+
+ #fot {height: 15%;
+    grid-area: ft;
+}
