@@ -33,17 +33,23 @@ body{
 #sm {
     grid-area:mn;
     
-    background-color:
+    background-color:aqua
     
-}
-section { 
-    height: 50%;
-background-color:black;
  } 
 
  #fot {
     grid-area: ft;
 }
+
+
+
+/*Bilder*/ 
+#bild1 {
+    align-self: center;
+    height: 100%;
+    width: 100%;
+}
+
 
 /* ALLA MINA TEXTER*/
 
