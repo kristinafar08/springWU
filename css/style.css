@@ -32,9 +32,19 @@ body{
 
 #sm {
     grid-area:mn;
+    overflow: hidden;
+    
     
     background-color:aqua
     
+<<<<<<< HEAD
+=======
+}
+section { 
+    height: 50%;
+background-color:black;
+
+>>>>>>> dc3dc92cd2eb05d5e5ca5f661dcfa096ab647b7b
  } 
 
  #fot {
@@ -60,4 +70,16 @@ header h1 {
 
 nav h2 { 
     margin:0;
+}
+
+/* bilder */
+
+main img {
+    
+    
+    height: 100%;
+    width: 100%;
+    
+    
+   
 }
