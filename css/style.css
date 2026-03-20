@@ -30,22 +30,26 @@ body{
 
 
 
-#sm {
+main#sm {
     grid-area:mn;
     overflow: hidden;
+    display: grid;
+    grid-template-columns: 50% 50%;
     
     
-    background-color:aqua
+    background-image:url(/img/backgeund.jpg) ; 
     
-<<<<<<< HEAD
-=======
 }
-section { 
-    height: 50%;
-background-color:black;
 
->>>>>>> dc3dc92cd2eb05d5e5ca5f661dcfa096ab647b7b
- } 
+#sm section {
+    text-align-last: center;
+    
+
+padding:40px;
+
+}
+
+ 
 
  #fot {
     grid-area: ft;
@@ -53,33 +57,40 @@ background-color:black;
 
 
 
-/*Bilder*/ 
-#bild1 {
-    align-self: center;
-    height: 100%;
-    width: 100%;
-}
+
 
 
 /* ALLA MINA TEXTER*/
 
 header h1 {
     margin:0;
-
+    
+   
 }
 
 nav h2 { 
     margin:0;
 }
 
+section h1{ 
+    color: aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    letter-spacing: 1px;
+
+}
+
+section p {
+    color: aliceblue;
+}
+
 /* bilder */
 
-main img {
-    
-    
-    height: 100%;
-    width: 100%;
-    
-    
+#bild1 {
    
-}
+    border-radius: 30px;
+   height: 100%; 
+   width:  100%;
+   align-self: center;
+   outline: 5px solid #c19a6b ;
+  
+
