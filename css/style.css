@@ -8,7 +8,7 @@
     "ft ft ft"
     ;
     grid-template-columns:1fr 1fr 1fr ;
-     grid-template-rows: 5% 5% 80% 10% ;
+     grid-template-rows: 5% 5% auto 10% ;
     
 }
 
@@ -34,19 +34,39 @@ main#sm {
     grid-area:mn;
     overflow: hidden;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
+    gap: 5vw;
     
     
-    background-image:url(/img/backgeund.jpg) ; 
+    background-image:url(/img/backgrund.jpg) ; 
+    background-size: cover;
+    padding: 40px;
+    
     
 }
 
 #sm section {
-    text-align-last: center;
     
 
-padding:40px;
+    
 
+    
+    
+
+
+
+}
+
+#ruta {
+
+     background-color: rgba(0, 0, 0, 0.662);
+    
+     border: 5px solid #c19a6b;
+    
+     text-align: center;
+     padding: 0.5em;
+     
+     border-radius: 30px;
 }
 
  
@@ -76,7 +96,7 @@ section h1{
     color: aliceblue;
     font-family:Verdana, Geneva, Tahoma, sans-serif
     letter-spacing: 1px;
-
+    
 }
 
 section p {
@@ -88,9 +108,10 @@ section p {
 #bild1 {
    
     border-radius: 30px;
+    
    height: 100%; 
-   width:  100%;
-   align-self: center;
+   width:100%;
+   align-self:baseline;
    outline: 5px solid #c19a6b ;
   
 
