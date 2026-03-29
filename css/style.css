@@ -1,14 +1,15 @@
 #wrapper {
     display: grid;
-    height: 100vh;
+     min-height: 100vh;
       grid-template-areas: 
     "hd hd hd"
     "nv nv nv"
     "mn mn mn"
+    "mn1 mn1 mn1"
     "ft ft ft"
     ;
-    grid-template-columns:1fr 1fr 1fr ;
-     grid-template-rows: 5% 5% auto 10% ;
+    grid-template-columns: auto;
+    grid-template-rows: 5% 5% auto auto 10% ;
     
 }
 
@@ -32,7 +33,7 @@ body{
 
 main#sm {
     grid-area:mn;
-    overflow: hidden;
+  
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 5vw;
@@ -45,17 +46,6 @@ main#sm {
     
 }
 
-#sm section {
-    
-
-    
-
-    
-    
-
-
-
-}
 
 #ruta {
 
@@ -69,6 +59,36 @@ main#sm {
      border-radius: 30px;
 }
 
+main#mn1 {
+    grid-area: mn1;
+    background-color: rgb(36, 36, 36);
+
+}
+
+
+#knapp1  {
+  display: inline-block;
+  background-color: black;
+  color: #d4a373;
+  border: 2px solid #d4a373;
+  padding: 12px 25px;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+ 
+}
+
+#knapp2  {
+  display: inline-block;
+  background-color: black;
+  color: #d4a373;
+  border: 2px solid #d4a373;
+  padding: 12px 25px;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+ 
+}
  
 
  #fot {
